@@ -1,0 +1,35 @@
+.footerApp {
+    width: 100%;
+    background-color: black;
+    height: 650px;
+    box-sizing: border-box;
+}
+
+.frase {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.frase p {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    padding: 50px;
+}
+
+.contato {
+    color: yellow;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+}
+
+.contato a{
+    text-decoration: none;
+    color: yellow;
+}

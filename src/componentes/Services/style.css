@@ -1,0 +1,178 @@
+.services {
+    width: 100%;
+    /* height: 650px; */
+    box-sizing: border-box;
+    /* padding: 50px; */
+    /* margin-bottom: 60px; */
+    padding-top: 50px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 100px;
+    background-color: white;
+}
+
+.services h1 {
+    font-size: 50px;
+    width: 100%;
+    font-weight: bold;
+    text-align: left;
+}
+
+.services p {
+    color: black;
+    font-size: 20px;
+    width: 70%;
+    text-align: left;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.boxCard {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 400px;
+    text-decoration: none;
+    transition: 0.5s;
+  }
+
+.boxCard:hover {
+    transition: 0.5Ss;
+    transform: translateY(-20px);
+  }
+
+.imagemCard {  
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.textCard {
+    width: 100%;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    padding: 15px;
+}
+
+button {
+    width: 100%;
+    border: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.containerService{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.containerCard {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    background-color: #444442;
+    color: white;
+    height: 100%;
+}
+
+.leftContainerCard {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: space-between;
+    height: 100%;
+    width: 70%;
+    text-align: left;    
+}
+
+.rightContainerCard {
+    height: 100%;
+    width: 30%;
+}
+
+.leftContainerCard ul {
+    padding: 30px 90px;
+}
+
+.leftContainerCard li{
+    font-size: 20px;
+    font-weight: normal;
+    list-style-type: disc; 
+    padding-bottom: 20px;
+}
+
+.rightContainerCard > .imagesRight{
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.leftContainerCard > h1 {
+    padding-top: 50px;
+    font-size: 70px;
+}
+
+.leftContainerCard > h2 {
+    padding-left: 50px;
+    font-size: 30px;
+}
+
+.leftContainerCard > p {
+    padding-left: 50px;
+    font-size: 20px;
+}
+
+.botoes {
+    font-size: 30px;
+    color: black;
+    padding-top: 20px;
+}
+
+.botoes ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.botoes ul li{
+    list-style-type: none; 
+}
+
+.saibaMais{
+    padding: 15px 30px 15px 30px;
+    border: 2px solid black;
+    border-radius: 50px;
+    color: black;
+    background-image: linear-gradient(to right, #ffe258, #ff994e);
+    text-shadow: none;
+    font-weight: bold;
+}
+
+.duvidasFrequentes {
+    padding: 15px 30px 15px 30px;
+    border: 2px solid black;
+    border-radius: 50px;
+    color: black;
+    background-color: #00bf63;
+    text-shadow: none;
+    font-weight: bold;
+}
